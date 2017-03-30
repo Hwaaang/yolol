@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    width:960px;
+    margin-left:150px;
+    margin-right:100px;
+    font-family: "Amatic SC";
+}
+
+nav {
+    height: 80px;
+    background: gray;
+    }
+
+li.left {
+    font-size: 30px;
+    line-height: 80px;
+    list-style-type: none;
+    float : left;
+   }
+
+li.right {
+    float:right;
+    font-size:18px;
+    list-style-type: none;
+   }
+
+div.rightbox ul {
+  float: right;
+}
+
+div.rightbox ul li {
+  float: left;
+  line-height: 80px;
+  padding-right: 20px;
+}
+
+nav::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.header {
+  height: 600px;
+  }
+
+header {
+  background-image: url(./0330/julia.jpg);
+  width: 960px;
+  height: 600px;
+  background-size: cover;
+  padding-top:100px;
+}
+header h1 {
+  /* 헤더 밑에 있는 h1 과 p 에 스타일 적용 */
+  font-size: 100px;
+  text-align:center;
+  
+}
+header p {
+  font-size: 20px;
+  text-align:center;
+}
+
+section{
+  font-size:18px;
+}
+
+section > div {
+  float : left;
+  width: 320px;
+}
+
+.i1{
+  width: 300px;
+  height: 300px;
+}
+
+.i2{
+  width: 300px;
+  height: 300px;
+}
+
+.i3{
+  width: 300px;
+  height: 300px;
+}
+
+
+footer {
+    clear: both;
+    padding :15px;
+    text-align: center;
+    background: gray;
+}
